@@ -30,13 +30,13 @@ frame4.config(bg="red",width=408,height=204)
 frame4.place(x=340,y=339)
 
 #objeto frame azul
-frame1= Frame(bandera_noruega)
-frame1.config(bg="blue",width=65,height=542)
-frame1.place(x=240,y=0)
+frame5= Frame(bandera_noruega)
+frame5.config(bg="blue",width=65,height=542)
+frame5.place(x=240,y=0)
 
-frame2= Frame(bandera_noruega)
-frame2.config(bg="blue",width=747,height=65)
-frame2.place(x=0,y=240)
+frame6= Frame(bandera_noruega)
+frame6.config(bg="blue",width=747,height=65)
+frame6.place(x=0,y=240)
 
 #bucle
 bandera_noruega.mainloop()
